@@ -1,0 +1,16 @@
+.empTile {
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 5px 5px 15px;
+    background-color: azure;
+    margin: 10px;
+    /* perspective: 1px; */
+}
+
+.empStats {
+    border-radius: 20px;
+    background-color: rgb(94, 172, 255);
+    color: azure;
+    margin-top: 5px;
+    /* perspective: 1px; */
+}

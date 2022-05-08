@@ -1,0 +1,25 @@
+{
+  "name": "jest-another-rpg",
+  "version": "1.0.0",
+  "description": "Command line RGP with TDD",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Crimsondrac1/jest-another-RPG.git"
+  },
+  "author": "Doug Erickson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Crimsondrac1/jest-another-RPG/issues"
+  },
+  "homepage": "https://github.com/Crimsondrac1/jest-another-RPG#readme",
+  "devDependencies": {
+    "jest": "^28.0.3"
+  },
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
