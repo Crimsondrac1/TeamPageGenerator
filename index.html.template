@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Team Profile Generator</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/c02a174431.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma.min.css" />
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <div class="columns">
+        <h2 class="titlebar column is-full has-text-white has-text-centered is-size-1">My Team</h2>
+    </div>
+
+    <div class="columns mt-5 ml-5 is-variable is-5">
+        <div class="column is-one-quarter empTile">
+            <div class="columns">
+                <div class="column is-full is-size-4 empStats" id="empStats">Doug Erickson
+                    <div class="columns">
+                        <i class="column fa-solid fa-users mt-2 is-narrow pr-0"></i>
+                        <p class="column">Manager</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-full is-size-4 empDetails" id="empDetails">ID:
+            </div>
+            <div class="column is-full is-size-4 empDetails" id="empDetails">Email: <a
+                    href="mailto:someone@yoursite.com">Email</a>
+            </div>
+            <div class="column is-full is-size-4 empDetails" id="empDetails">Office #:
+            </div>
+        </div>
+        <div class="column is-one-quarter empTile">
+            <div class="columns">
+                <div class="column is-full is-size-4 empStats" id="empStats">Doug Erickson
+                    <div class="columns">
+                        <i class="column fa-solid fa-user-gear is-narrow mt-2 pr-0"></i>
+                        <p class="column">Engineer</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-full is-size-4 empDetails" id="empDetails">ID:
+            </div>
+            <div class="column is-full is-size-4 empDetails" id="empDetails">Email: <a
+                    href="mailto:someone@yoursite.com">Email</a>
+            </div>
+            <div class="column is-full is-size-4 empDetails" id="empDetails">Github: <a
+                    href="https://github.com/#username">Username</a>
+            </div>
+        </div>
+
+        <div class="column is-one-quarter empTile">
+            <div class="columns">
+                <div class="column is-full is-size-4 empStats" id="empStats">Doug Erickson
+                    <div class="columns">
+                        <i class="column fa-solid fa-user-graduate is-narrow mt-2 pr-0"></i>
+                        <p class="column">Intern</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="column is-full is-size-4 empDetails" id="empDetails">ID:
+            </div>
+            <div class="column is-full is-size-4 empDetails" id="empDetails">Email: <a
+                    href="mailto:someone@yoursite.com">Email</a>
+            </div>
+            <div class="column is-full is-size-4 empDetails" id="empDetails">School:
+            </div>
+        </div>
+
+
+
+
+    </div>   
+</body>
+</html>

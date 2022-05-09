@@ -1,16 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-family: 'Balsamiq Sans', cursive;
+}
+
 .empTile {
     border-radius: 20px;
     overflow: hidden;
     box-shadow: 5px 5px 15px;
     background-color: azure;
-    margin: 10px;
-    /* perspective: 1px; */
+    margin: 10px;    
 }
 
 .empStats {
     border-radius: 20px;
     background-color: rgb(94, 172, 255);
+    box-shadow: 2px 2px 6px black;
     color: azure;
+    margin: 10px;
+    font-size: 24px;
+}
+
+.uName {
+    
+    font-size: 30px;
+}
+
+.empDetails {
+    background-color: white;
+    box-shadow: 2px 2px 6px;
+    border-radius: 10px;
+    padding: 5px;
     margin-top: 5px;
-    /* perspective: 1px; */
+}
+
+.titlebar {
+    background-image: linear-gradient(to top right, rgb(112, 112, 255), azure);
+    color: azure;
+    text-shadow: 5px 8px 10px rgb(0, 0, 72);
+    font-family: 'Krona One', sans-serif;
 }
